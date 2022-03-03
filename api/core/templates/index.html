@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=7">
+        <link rel="stylesheet" type="text/css" href= {% static "/styles.css" %}>
+        <script src={% static "/app.js" %}></script>
+    </head>
+    <body>
+        <div class="box">
+            <button onclick="render('compras')" class="btn-box">ENTRAR</button>
+        </div>
+    </body>
+</html>
